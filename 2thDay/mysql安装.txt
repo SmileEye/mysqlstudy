@@ -1,0 +1,4 @@
+centos检查mysql是否安装： rpm -qa | grep mysql
+检查mysql是否启动： ps -ef | grep mysqld
+启动mysql：/usr/bin/mysqld_safe
+关闭mysql：mysqladmin -u root -p shutdown
