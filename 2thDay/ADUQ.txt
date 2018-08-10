@@ -1,0 +1,5 @@
+mysql命令行内：create databases stu;
+mysql 命令行外：mysqladmin -u root -p create stu;
+如果不存在数据库再行创建：create database if not exists stu;
+库名，表名，字段名区分大小写
+
