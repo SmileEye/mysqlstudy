@@ -1,0 +1,17 @@
+create database if not exists db_test;
+
+create table if not exists tb_test(
+	`sid` int unsigned auto_increment,
+	`name` varchar(50) not null,
+	`date` DATE,
+	primary key(`sid`)
+) default charset=`uft8`;
+
+drop table a;
+
+insert into tb (sid,name,date) values(1,"jack",now());
+
+select * from stu limit 1 offset 2;
+
+
+
